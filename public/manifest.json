@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "LITTLE GENIUS KIDS",
+  "short_name": "LittleGenius",
+  "description": "Ultimate All-in-One Kids Learning Book, Educational Games & Interactive Learning App",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#4FC3F7",
+  "background_color": "#E0F7FA",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="50%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#FFD54F"/>
+    </linearGradient>
+    <linearGradient id="rainbow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF80AB"/>
+      <stop offset="25%" stop-color="#FFB74D"/>
+      <stop offset="50%" stop-color="#FFD54F"/>
+      <stop offset="75%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  
+  <!-- Rainbow Arc -->
+  <path d="M 80 320 A 176 176 0 0 1 432 320" fill="none" stroke="url(#rainbow1)" stroke-width="36" stroke-linecap="round"/>
+  
+  <!-- Panda Mascot Face -->
+  <!-- Ears -->
+  <circle cx="170" cy="180" r="48" fill="#1E293B"/>
+  <circle cx="170" cy="180" r="26" fill="#FF80AB"/>
+  <circle cx="342" cy="180" r="48" fill="#1E293B"/>
+  <circle cx="342" cy="180" r="26" fill="#FF80AB"/>
+  
+  <!-- Head -->
+  <ellipse cx="256" cy="270" rx="130" ry="115" fill="#FFFFFF"/>
+  
+  <!-- Eye Patches -->
+  <ellipse cx="205" cy="265" rx="36" ry="42" fill="#1E293B" transform="rotate(-15 205 265)"/>
+  <ellipse cx="307" cy="265" rx="36" ry="42" fill="#1E293B" transform="rotate(15 307 265)"/>
+  
+  <!-- Eyes -->
+  <circle cx="212" cy="260" r="14" fill="#FFFFFF"/>
+  <circle cx="216" cy="258" r="6" fill="#1E293B"/>
+  <circle cx="300" cy="260" r="14" fill="#FFFFFF"/>
+  <circle cx="296" cy="258" r="6" fill="#1E293B"/>
+  
+  <!-- Nose and Mouth -->
+  <ellipse cx="256" cy="300" rx="14" ry="10" fill="#1E293B"/>
+  <path d="M 256 310 Q 256 322 244 322 Q 232 322 232 312" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 256 310 Q 256 322 268 322 Q 280 322 280 312" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Cheeks -->
+  <ellipse cx="160" cy="305" rx="18" ry="10" fill="#FF80AB" opacity="0.6"/>
+  <ellipse cx="352" cy="305" rx="18" ry="10" fill="#FF80AB" opacity="0.6"/>
+  
+  <!-- Graduation / Star Cap -->
+  <polygon points="256,110 320,140 256,165 192,140" fill="#FFB74D"/>
+  <polygon points="256,165 320,140 320,152 256,177" fill="#FFA726"/>
+  
+  <!-- Star Sparkle -->
+  <path d="M 100 120 Q 115 120 120 105 Q 125 120 140 120 Q 125 120 120 135 Q 115 120 100 120 Z" fill="#FFD54F"/>
+  <path d="M 380 100 Q 392 100 396 88 Q 400 100 412 100 Q 400 100 396 112 Q 392 100 380 100 Z" fill="#FFD54F"/>
+</svg>

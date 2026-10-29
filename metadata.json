@@ -1,0 +1,6 @@
+{
+  "name": "LITTLE GENIUS KIDS",
+  "description": "Ultimate All-in-One Kids Learning Book, Educational Games & Interactive Learning App for children aged 2–10.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
